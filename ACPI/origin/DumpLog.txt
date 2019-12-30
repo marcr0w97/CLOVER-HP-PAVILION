@@ -1,0 +1,120 @@
+9:268  1:891  Found BIOS RSDP at F0010
+9:268  0:000  Printing ACPI tables from RSDP F0010 ...
+9:268  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:268  0:000    (Xsdt: CAE85088, Rsdt: CAE85028)
+9:268  0:000    CAE85088: 'XSDT', 'SLIC-CPC', Rev: 1, Len: 140
+9:268  0:000    CAE85028: 'RSDT', 'SLIC-CPC', Rev: 1, Len: 88
+9:268  0:000    Tables in Xsdt: 13
+9:268  0:000    0. CAE99908: 'FACP', 'SLIC-CPC', Rev: 5, Len: 268
+9:268  0:000        (Dsdt: CAE851A0, Facs: CAFFCF80, XDsdt: CAE851A0, XFacs: 0)
+9:268  0:000        CAE851A0: 'DSDT', 'SLIC-CPC', Rev: 2, Len: 83812
+9:269  0:000        CAFFCF80: 'FACS', Ver: 2, Len: 64
+9:269  0:000    1. CAE99A18: 'APIC', 'SLIC-CPC', Rev: 3, Len: 146
+9:269  0:000    2. CAE99AB0: 'FPDT', 'SLIC-CPC', Rev: 1, Len: 68
+9:269  0:000    3. CAE99AF8: 'MSDM', 'SLIC-CPC', Rev: 3, Len: 85
+9:269  0:000    4. CAE99B50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 1337
+9:269  0:000    5. CAE9A090: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 2776
+9:269  0:000    6. CAE9AB68: 'MCFG', 'SLIC-CPC', Rev: 1, Len: 60
+9:269  0:000    7. CAE9ABA8: 'HPET', 'SLIC-CPC', Rev: 1, Len: 56
+9:269  0:000    8. CAE9ABE0: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 877
+9:269  0:000    9. CAE9AF50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 12582
+9:269  0:000    10. CAE9E078: 'BGRT', 'SLIC-CPC', Rev: 0, Len: 56
+9:269  0:000    11. CAE9E0B0: 'DMAR', 'SLIC-CPC', Rev: 1, Len: 184
+9:269  0:000    12. CAE9E168: 'DBGP', 'SLIC-CPC', Rev: 1, Len: 52
+9:269  0:000    Tables in Rsdt: 13
+9:269  0:000    0. CAE85118: 'FACP', 'SLIC-CPC', Rev: 2, Len: 132
+9:269  0:000        (Dsdt: CAE851A0, Facs: CAFFCF40)
+9:269  0:000        CAE851A0: 'DSDT', 'SLIC-CPC', Rev: 2, Len: 83812
+9:270  0:000        CAFFCF40: 'FACS', Ver: 0, Len: 64
+9:270  0:000    1. CAE99A18: 'APIC', 'SLIC-CPC', Rev: 3, Len: 146
+9:270  0:000    2. CAE99AB0: 'FPDT', 'SLIC-CPC', Rev: 1, Len: 68
+9:270  0:000    3. CAE99AF8: 'MSDM', 'SLIC-CPC', Rev: 3, Len: 85
+9:270  0:000    4. CAE99B50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 1337
+9:270  0:000    5. CAE9A090: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 2776
+9:270  0:000    6. CAE9AB68: 'MCFG', 'SLIC-CPC', Rev: 1, Len: 60
+9:270  0:000    7. CAE9ABA8: 'HPET', 'SLIC-CPC', Rev: 1, Len: 56
+9:270  0:000    8. CAE9ABE0: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 877
+9:270  0:000    9. CAE9AF50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 12582
+9:270  0:000    10. CAE9E078: 'BGRT', 'SLIC-CPC', Rev: 0, Len: 56
+9:270  0:000    11. CAE9E0B0: 'DMAR', 'SLIC-CPC', Rev: 1, Len: 184
+9:270  0:000    12. CAE9E168: 'DBGP', 'SLIC-CPC', Rev: 1, Len: 52
+9:270  0:000  Found UEFI Acpi 2.0 RSDP at CAE85000
+9:270  0:000  Saving ACPI tables from RSDP CAE85000 to EFI\CLOVER\ACPI\origin ...
+9:270  0:000   CAE85000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:270  0:000    (Xsdt: CAE85088, Rsdt: CAE85028)
+9:270  0:000    CAE85088: 'XSDT', 'SLIC-CPC', Rev: 1, Len: 140
+9:270  0:000    CAE85028: 'RSDT', 'SLIC-CPC', Rev: 1, Len: 88
+9:270  0:000    Tables in Xsdt: 13
+9:270  0:000    0. CAE99908: 'FACP', 'SLIC-CPC', Rev: 5, Len: 268
+9:270  0:000        (Dsdt: CAE851A0, Facs: CAFFCF80, XDsdt: CAE851A0, XFacs: 0)
+9:270  0:000        CAE851A0: 'DSDT', 'SLIC-CPC', Rev: 2, Len: 83812
+9:270  0:000        CAFFCF80: 'FACS', Ver: 2, Len: 64
+9:270  0:000    1. CAE99A18: 'APIC', 'SLIC-CPC', Rev: 3, Len: 146
+9:270  0:000    2. CAE99AB0: 'FPDT', 'SLIC-CPC', Rev: 1, Len: 68
+9:270  0:000    3. CAE99AF8: 'MSDM', 'SLIC-CPC', Rev: 3, Len: 85
+9:270  0:000    4. CAE99B50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 1337
+9:270  0:000    5. CAE9A090: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 2776
+9:270  0:000    6. CAE9AB68: 'MCFG', 'SLIC-CPC', Rev: 1, Len: 60
+9:270  0:000    7. CAE9ABA8: 'HPET', 'SLIC-CPC', Rev: 1, Len: 56
+9:270  0:000    8. CAE9ABE0: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 877
+9:270  0:000    9. CAE9AF50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 12582
+9:270  0:000    10. CAE9E078: 'BGRT', 'SLIC-CPC', Rev: 0, Len: 56
+9:270  0:000    11. CAE9E0B0: 'DMAR', 'SLIC-CPC', Rev: 1, Len: 184
+9:270  0:000    12. CAE9E168: 'DBGP', 'SLIC-CPC', Rev: 1, Len: 52
+9:270  0:000    Tables in Rsdt: 13
+9:270  0:000    0. CAE85118: 'FACP', 'SLIC-CPC', Rev: 2, Len: 132
+9:270  0:000        (Dsdt: CAE851A0, Facs: CAFFCF40)
+9:270  0:000        CAE851A0: 'DSDT', 'SLIC-CPC', Rev: 2, Len: 83812
+9:271  0:000        CAFFCF40: 'FACS', Ver: 0, Len: 64
+9:271  0:000    1. CAE99A18: 'APIC', 'SLIC-CPC', Rev: 3, Len: 146
+9:271  0:000    2. CAE99AB0: 'FPDT', 'SLIC-CPC', Rev: 1, Len: 68
+9:271  0:000    3. CAE99AF8: 'MSDM', 'SLIC-CPC', Rev: 3, Len: 85
+9:271  0:000    4. CAE99B50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 1337
+9:271  0:000    5. CAE9A090: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 2776
+9:271  0:000    6. CAE9AB68: 'MCFG', 'SLIC-CPC', Rev: 1, Len: 60
+9:271  0:000    7. CAE9ABA8: 'HPET', 'SLIC-CPC', Rev: 1, Len: 56
+9:271  0:000    8. CAE9ABE0: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 877
+9:271  0:000    9. CAE9AF50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 12582
+9:271  0:000    10. CAE9E078: 'BGRT', 'SLIC-CPC', Rev: 0, Len: 56
+9:271  0:000    11. CAE9E0B0: 'DMAR', 'SLIC-CPC', Rev: 1, Len: 184
+9:271  0:000    12. CAE9E168: 'DBGP', 'SLIC-CPC', Rev: 1, Len: 52
+9:271  0:000  Found UEFI Acpi 1.0 RSDP at CAE85000
+9:271  0:000  Printing ACPI tables from RSDP CAE85000 ...
+9:271  0:000   CAE85000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:271  0:000    (Xsdt: CAE85088, Rsdt: CAE85028)
+9:271  0:000    CAE85088: 'XSDT', 'SLIC-CPC', Rev: 1, Len: 140
+9:271  0:000    CAE85028: 'RSDT', 'SLIC-CPC', Rev: 1, Len: 88
+9:271  0:000    Tables in Xsdt: 13
+9:271  0:000    0. CAE99908: 'FACP', 'SLIC-CPC', Rev: 5, Len: 268
+9:271  0:000        (Dsdt: CAE851A0, Facs: CAFFCF80, XDsdt: CAE851A0, XFacs: 0)
+9:271  0:000        CAE851A0: 'DSDT', 'SLIC-CPC', Rev: 2, Len: 83812
+9:272  0:000        CAFFCF80: 'FACS', Ver: 2, Len: 64
+9:272  0:000    1. CAE99A18: 'APIC', 'SLIC-CPC', Rev: 3, Len: 146
+9:272  0:000    2. CAE99AB0: 'FPDT', 'SLIC-CPC', Rev: 1, Len: 68
+9:272  0:000    3. CAE99AF8: 'MSDM', 'SLIC-CPC', Rev: 3, Len: 85
+9:272  0:000    4. CAE99B50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 1337
+9:272  0:000    5. CAE9A090: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 2776
+9:272  0:000    6. CAE9AB68: 'MCFG', 'SLIC-CPC', Rev: 1, Len: 60
+9:272  0:000    7. CAE9ABA8: 'HPET', 'SLIC-CPC', Rev: 1, Len: 56
+9:272  0:000    8. CAE9ABE0: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 877
+9:272  0:000    9. CAE9AF50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 12582
+9:272  0:000    10. CAE9E078: 'BGRT', 'SLIC-CPC', Rev: 0, Len: 56
+9:272  0:000    11. CAE9E0B0: 'DMAR', 'SLIC-CPC', Rev: 1, Len: 184
+9:272  0:000    12. CAE9E168: 'DBGP', 'SLIC-CPC', Rev: 1, Len: 52
+9:272  0:000    Tables in Rsdt: 13
+9:272  0:000    0. CAE85118: 'FACP', 'SLIC-CPC', Rev: 2, Len: 132
+9:272  0:000        (Dsdt: CAE851A0, Facs: CAFFCF40)
+9:272  0:000        CAE851A0: 'DSDT', 'SLIC-CPC', Rev: 2, Len: 83812
+9:273  0:000        CAFFCF40: 'FACS', Ver: 0, Len: 64
+9:273  0:000    1. CAE99A18: 'APIC', 'SLIC-CPC', Rev: 3, Len: 146
+9:273  0:000    2. CAE99AB0: 'FPDT', 'SLIC-CPC', Rev: 1, Len: 68
+9:273  0:000    3. CAE99AF8: 'MSDM', 'SLIC-CPC', Rev: 3, Len: 85
+9:273  0:000    4. CAE99B50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 1337
+9:273  0:000    5. CAE9A090: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 2776
+9:273  0:000    6. CAE9AB68: 'MCFG', 'SLIC-CPC', Rev: 1, Len: 60
+9:273  0:000    7. CAE9ABA8: 'HPET', 'SLIC-CPC', Rev: 1, Len: 56
+9:273  0:000    8. CAE9ABE0: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 877
+9:273  0:000    9. CAE9AF50: 'SSDT', 'SLIC-CPC', Rev: 1, Len: 12582
+9:273  0:000    10. CAE9E078: 'BGRT', 'SLIC-CPC', Rev: 0, Len: 56
+9:273  0:000    11. CAE9E0B0: 'DMAR', 'SLIC-CPC', Rev: 1, Len: 184
+9:273  0:000    12. CAE9E168: 'DBGP', 'SLIC-CPC', Rev: 1, Len: 52
