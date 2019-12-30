@@ -10858,7 +10858,7 @@ DefinitionBlock ("", "DSDT", 2, "HPQOEM", "SLIC-CPC", 0x00000000)
                     Store (0x07DC, OSYS)
                 }
 
-                If (_OSI ("Windows 2013"))
+                If(LOr(_OSI("Darwin"),_OSI("Windows 2013")))
                 {
                     Store (0x07DD, OSYS)
                 }
